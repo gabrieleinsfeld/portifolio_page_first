@@ -80,7 +80,7 @@ main section {
 .project div:first-of-type {
   display: flex;
   justify-content: center;
-  padding: 5px;
+  padding: 4px;
   background-color: #007ea7;
 }
 
