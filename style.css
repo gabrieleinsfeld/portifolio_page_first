@@ -80,7 +80,7 @@ main section {
 .project div:first-of-type {
   display: flex;
   justify-content: center;
-  padding: 70px 30px;
+  padding: 5px;
   background-color: #007ea7;
 }
 
@@ -88,11 +88,18 @@ main section {
   padding: 30px;
   padding-top: 10px;
   display: grid;
-  grid-template-columns: 1fr 1fr 20px;
-
   justify-content: end;
   align-items: center;
 }
+
+.one-icon {
+  grid-template-columns: 1fr 1fr 20px;
+}
+
+.two-icon {
+  grid-template-columns: 1fr 1fr 40px;
+}
+
 .project div:nth-child(2) h4 {
   grid-column-start: 1;
   grid-column-end: 3;
